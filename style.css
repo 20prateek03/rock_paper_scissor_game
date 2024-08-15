@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:#97ddf0 ;
+}
+
+.title_image{
+        height: 200px;
+        width: 200px;
+        background-size:cover ;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        
+    }
+header{
+    background-color:#208AAE;
+    color: #60492C;
+    font-size: 50px;
+    font-weight: 900;
+    height:200px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.light{
+    background-color: #97ddf0;
+    color: black;
+ }
+
+ .dark{
+    background-color: #0c032c;
+    color: white;
+ }
+ #mode{
+    /* margin: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px; */
+    color:#DEB841;
+    background-color: #37323E;
+    align-self: flex-end;
+    font-size: medium;
+    font-weight: 800;
+ }
+ .choices{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+ }
+
+ .choice{
+    height: 10rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+ }
+ .choice:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    border: 5px solid rgba(225, 135, 9, 0.738);
+ }
+
+ img{
+    height: 10rem;
+    width: 15rem;
+    object-fit:contain;
+    border-radius: 50%;
+    border: 2px solid rgba(225, 135, 9, 0.738);
+    background-color: white;
+ }
+ .score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    gap: 2rem;
+    
+    
+}
+#user-score, #comp-score{
+    font-size: 5rem;
+
+}
+.msg-container{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+#msg{
+    background-color:  #D499B9;
+    color:#011638 ;
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-align: center;
+    display: inline;
+    border: 2px solid purple ;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
